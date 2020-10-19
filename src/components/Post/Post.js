@@ -25,6 +25,9 @@ function Post({
                         <VerifiedUserIcon className="post__badge"/>
                         </span> 
                  </h3>
+             </div>
+             <div className="post__headerDescription">
+                 <p>yeaahhhhhhhh</p>
 
              </div>
              </div>
