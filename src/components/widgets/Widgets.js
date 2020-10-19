@@ -11,6 +11,16 @@ function Widgets() {
       <SearchIcon className="widgets__searchIcon"/>
       <input placeholder="Search Twitter" type="text"/>
             </div>       
+            <div className="widgets__widgetContainer">
+                <h2>What's happening?</h2>
+                <TwitterTweetEmbed tweetId={"1318211050513211393"} />
+                <TwitterTimelineEmbed 
+                  sourceType="profile"
+                  screenName="Musicfined"
+                  options={{height:400}}
+                  />
+                  <TwitterShareButton/>
+        </div>
         </div>
     )
 }
