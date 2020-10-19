@@ -11,3 +11,10 @@
     border-radius: 20px;
     width:100%;
 }
+
+
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
