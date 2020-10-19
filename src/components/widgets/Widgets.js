@@ -19,10 +19,10 @@ function Widgets() {
                   screenName="Musicfined"
                   options={{height:400}}
                   />
-                  <TwitterShareButton/>
+    
         </div>
         </div>
     )
 }
 
-export default Widgets
+export default Widgets;

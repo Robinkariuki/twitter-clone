@@ -6,6 +6,7 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PublishIcon from '@material-ui/icons/Publish';
+import { VerifiedUser } from '@material-ui/icons';
 
 function Post({
     displayName,
@@ -18,23 +19,23 @@ function Post({
     return (
         <div className="post">
             <div className="post__avatar">
-                <Avatar src="https://www.denofgeek.com/wp-content/uploads/2017/03/darth-vader-1_0.jpg?resize=768%2C432"></Avatar>
+                <Avatar src={avatar}></Avatar>
 
             </div>
         <div className="post__body">
              <div className="post__header"> 
              <div className="psot__headerText">
                  <h3>
-                    Robin karis{" "} <span>
-                        <VerifiedUserIcon className="post__badge"/>
+    {displayName}{" "} <span className="post__headerSpecial"> 
+    { verfied && <VerifiedUserIcon className="post__badge"/>}@{username}
                         </span> 
                  </h3>
              </div>
              <div className="post__headerDescription">
-                 <p>yeaahhhhhhhh</p> 
+    <p>{text}</p> 
 
              </div>
-             <img src="https://www.denofgeek.com/wp-content/uploads/2017/03/darth-vader-1_0.jpg?resize=768%2C432" alt=""/>
+             <img src={image} alt=""/>
              <div className="post__footer">
         <ChatBubbleOutlineIcon fontSize="small"/>
         <RepeatIcon fontSize="small"/>
@@ -47,4 +48,4 @@ function Post({
     )
 }
 
-export default Post
+export default Post;
