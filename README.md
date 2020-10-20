@@ -5,7 +5,7 @@ robin kariuki
 ## Description
 A twitter clone
 ## Screenshot
-![Alt text](src/assets/weather.png?raw=true "Weather")
+![Alt text](src/assets/twitter.png?raw=true "twiiter-clone")
 ## Getting started
 - Install dependencies using the command `npm install`
 - Enter the command `npm start` in your CLI to run the application locally.
