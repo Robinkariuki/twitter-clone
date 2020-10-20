@@ -1,4 +1,4 @@
-# Weather Application
+# Twitter-clone
 
 ## Author
 robin kariuki
