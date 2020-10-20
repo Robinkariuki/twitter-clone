@@ -1,5 +1,5 @@
-.widgets{
- flex:0.3;
+.widgets {
+    flex: 0.3;
 }
 
 .widgets__input {
@@ -12,16 +12,16 @@
     margin-left: 20px;
 }
 
-.widgets__input input{
-    border:none;
-    background-color:var(--twitter-background);
+.widgets__input>input {
+    border: none;
+    background-color: var(--twitter-background);
 }
 
-.widgets__searchIcon{
-    color:gray;
+.widgets__searchIcon {
+    color: gray;
 }
 
-.widgets__widgetContainer{
+.widgets__widgetContainer {
     margin-top: 15px;
     margin-left: 20px;
     padding: 20px;
@@ -29,8 +29,7 @@
     border-radius: 20px;
 }
 
-
-.widgets__widgetContainer h2{
+.widgets__widgetContainer>h2 {
     font-size: 18px;
     font-weight: 800;
 }

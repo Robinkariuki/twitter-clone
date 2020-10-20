@@ -1,4 +1,4 @@
-.post {
+ .post {
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid var(--twitter-background);
@@ -25,7 +25,7 @@
     font-size: 15px;
 }
 
-.post__headerText h3 {
+.post__headerText>h3 {
     font-size: 15px;
     margin-bottom: 5px;
 }
